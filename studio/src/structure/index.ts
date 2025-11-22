@@ -12,7 +12,7 @@ const DISABLED_TYPES = ['settings', 'assist.instruction.context']
 
 export const structure: StructureResolver = (S: StructureBuilder) =>
   S.list()
-    .title('Website Content')
+    .title('Content')
     .items([
       ...S.documentTypeListItems()
         // Remove the "assist.instruction.context" and "settings" content  from the list of content types
@@ -23,7 +23,7 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
         }),
       // Settings Singleton in order to view/edit the one particular document for Settings.  Learn more about Singletons: https://www.sanity.io/docs/create-a-link-to-a-single-edit-page-in-your-main-document-type-list
       S.listItem()
-        .title('Site Settings')
+        .title('Settings')
         .child(S.document().schemaType('settings').documentId('siteSettings'))
         .icon(CogIcon),
     ])

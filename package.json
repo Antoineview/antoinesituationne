@@ -1,12 +1,10 @@
 {
-  "name": "antoinesituationne",
-  "description": "Next.js + Sanity: A Powerful Website Starter with Real-time Visual Editing",
+  "name": "antoinesituations",
+  "description": "antoine situations",
   "keywords": [
-    "Sanity",
-    "Next.js",
-    "Headless CMS",
-    "Visual Editing",
-    "Live Content API (LCAPI)",
+    "Vlog",
+    "Japan",
+    "Travel",
     "Real-time"
   ],
   "homepage": "https://github.com/sanity-io/sanity-template-nextjs-clean#readme",
